@@ -1,0 +1,57 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  z-index: 0;
+}
+footer {
+  margin-top: auto;
+}
+.error-image {
+  width: 30vw;
+}
+.align-left {
+  text-align: left;
+}
+.border-grey {
+  border: solid 1px var(--grey);
+}
+.order-list {
+  min-width: min-content;
+  width: 35rem;
+}
+.pointer {
+  cursor: pointer;
+}
+.is-lighter {
+  color: var(--font-lighter);
+}
+input {
+  color: var(--font-dark);
+}
+@media only screen and (max-width: 788px) {
+  .error-image {
+    width: 70vw;
+  }
+}
+.order-cart-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+:root {
+  --background-white: white;
+  --loader-background: rgba(255, 255, 255, 0.8);
+}
+.dark-theme {
+  --background-white: #171717;
+  --input-grey: #2c3032;
+  --loader-background: rgba(42, 45, 47, 0.8);
+}
+input {
+  background-color: var(--input-grey);
+}
